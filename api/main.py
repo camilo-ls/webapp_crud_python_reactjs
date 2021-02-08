@@ -1,10 +1,12 @@
 from app import createApp
 from app import db
 from flask_migrate import Migrate
+from flask_cors import CORS
 from app.models import Contato
 
 ''' Instanciação da api '''
 app = createApp('dev')
+CORS(app)
 
 ''' Instanciação do migrate '''
 # Conectando o migrate ao app e ao db:
