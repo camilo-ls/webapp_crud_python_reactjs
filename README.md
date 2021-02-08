@@ -5,7 +5,7 @@
 
 # Requisitos mínimos:
 * MySQL instalado e rodando na máquina, com uma database 'Contatos'
-* Python versão >= 3.8
+* Python versão == 3.8
 * NodeJS/npm
 
 # Como fazer funcionar
