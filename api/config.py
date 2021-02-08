@@ -3,12 +3,13 @@
 mysqlUser = 'root'
 mysqlPassword = 'root'
 mysqlAddress = 'localhost'
+mysqlPort = '3306'
 mysqlDb = 'contatos'
 
 '''=== Configurações do app ==='''
 
 class Config:
-  SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://" + mysqlUser + r":" + mysqlPassword + r"@" + mysqlAddress + r"/" + mysqlDb
+  SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://" + mysqlUser + r":" + mysqlPassword + r"@" + mysqlAddress + r":" + mysqlPort + r"/" + mysqlDb
   SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 class Development(Config):
