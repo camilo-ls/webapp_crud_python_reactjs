@@ -10,6 +10,12 @@
 
 # Como fazer funcionar
 
+## Baixando o projeto:
+
+Crie uma pasta na sua máquina e, dentro dela, abra o terminal e dê um clone neste repo:
+
+> gh repo clone camilo-ls/webapp_crud_python_reactjs
+
 ## 1. API
 - Versão mínima do Python: 3.8
 
