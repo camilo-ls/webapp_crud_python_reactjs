@@ -17,7 +17,7 @@ Crie uma pasta na sua máquina e, dentro dela, abra o terminal e dê um clone ne
 > git clone https://github.com/camilo-ls/webapp_crud_python_reactjs.git
 
 ## 1. API
-- Versão mínima do Python: 3.8
+- Versão mínima do Python: 3.8 (testado)
 
 A API foi feita em um ambiente virtual controlado pelo Pipenv, que funciona como um equivalente do NPM. Logo, você deve ter o Pipenv instalado na sua máquina.
 
