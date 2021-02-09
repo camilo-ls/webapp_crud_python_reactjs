@@ -6,7 +6,7 @@ import mysql.connector
 host = 'localhost'
 porta = '3306'
 login = 'root'
-senha = 'root'
+senha = ''
 
 # Configuração de acesso ao banco de dados:
 print('> Conectando ao banco...', end='')
@@ -38,7 +38,7 @@ print(' SUCESSO!')
 print('> Criando a tabela...', end='')
 try:
   mysqlCursor.execute(
-    "CREATE TABLE contatos (id INT AUTO_INCREMENT PRIMARY KEY, nome VARCHAR(128) NOT NULL, sexo VARCHAR(1) NOT NULL, tel VARCHAR(9) NOT NULL, email VARCHAR(128) NOT NULL"
+    "CREATE TABLE contatos (id INT AUTO_INCREMENT PRIMARY KEY, nome VARCHAR(128) NOT NULL, sexo VARCHAR(1) NOT NULL, tel VARCHAR(9) NOT NULL, email VARCHAR(128) NOT NULL)"
   )
   print(' SUCESSO!')
 except:
