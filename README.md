@@ -36,10 +36,6 @@ ou
 
 Vá até dentro do diretório 'api', onde se encontra o arquivo Pipfile. Abra o terminal neste diretório e então digite:
 
-Existe também um script chamado *construirBanco.py* que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
-
-> 
-
 > pipenv install
 
 Após todos os pacotes serem instalados, rode o shell do Pipenv, ainda no diretório do arquivo Pipfile:
@@ -50,7 +46,7 @@ Após todos os pacotes serem instalados, rode o shell do Pipenv, ainda no diret�
 
 Dentro da pasta 'api', você pode editar o arquivo config.py para adicionar as credenciais, endereço e porta do banco MySQL (são as variáveis do começo do arquivo)
 
-Existe também um script chamado ~construirBanco.py~ que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
+Existe também um script chamado **construirBanco.py** que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
 
 > python construirBanco.py
 
