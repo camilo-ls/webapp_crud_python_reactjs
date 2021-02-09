@@ -4,7 +4,7 @@
 - SGBD: MySQL
 
 # Requisitos mínimos:
-* MySQL instalado e rodando na máquina, com uma database 'Contatos'
+* MySQL instalado e rodando na máquina
 * Python versão == 3.8
 * NodeJS/npm
 
@@ -33,16 +33,28 @@ ou
 
 > sudo apt install pipenv
 
-### Configuração do MySQL:
-Dentro da pasta 'api', você pode editar o arquivo config.py para adicionar as credenciais, endereço e porta do banco MySQL (são as variáveis do começo do arquivo)
 
 Vá até dentro do diretório 'api', onde se encontra o arquivo Pipfile. Abra o terminal neste diretório e então digite:
+
+Existe também um script chamado ~construirBanco.py~ que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
+
+> 
 
 > pipenv install
 
 Após todos os pacotes serem instalados, rode o shell do Pipenv, ainda no diretório do arquivo Pipfile:
 
 > pipenv shell
+
+### Configuração do MySQL:
+
+Dentro da pasta 'api', você pode editar o arquivo config.py para adicionar as credenciais, endereço e porta do banco MySQL (são as variáveis do começo do arquivo)
+
+Existe também um script chamado ~construirBanco.py~ que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
+
+> python construirBanco.py
+
+### Executando a API:
 
 Finalmente, dentro do shell do Pipenv, inicie a API:
 
@@ -65,3 +77,19 @@ Aguarde o término da instalação dos arquivos. Depois, para iniciar o webapp e
 > npm start
 
 O webapp será servido na porta 3000 (default do ReactJS).
+
+## 3. Testando o app:
+
+Acesse o webapp pelo endereço http://localhost:3000. Você será direcionado para uma página de login. As credenciais são:
+- username: creathus
+- password: admin
+
+A autenticação é falsa, mas gera um token que fica guardado no localStorage para fins de teste.
+
+Uma vez autenticado, você será redirecionado para a página da lista de contatos, onde poderá fazer as operações CRUD.
+
+## Dúvidas?
+
+Me manda um email:
+- sidou.camilo@gmail.com
+- cls@icomp.ufam.edu.br
