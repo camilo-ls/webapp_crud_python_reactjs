@@ -5,7 +5,7 @@
 
 # Requisitos mínimos:
 * MySQL instalado e rodando na máquina
-* Python versão == 3.8
+* Python versão == 3.8 (testado nessa versão)
 * NodeJS/npm
 
 # Como fazer funcionar
@@ -18,6 +18,20 @@ Crie uma pasta na sua máquina e, dentro dela, abra o terminal e dê um clone ne
 
 ## 1. API
 - Versão mínima do Python: 3.8 (testado)
+
+### AVISO!
+
+É possível desfazer a restrição do pipenv de rodar somente no python 3.8, basta abrir o Pipfile e mudar a linha:
+
+> python_version = "3.8"
+
+para:
+
+> python_version = "3"
+
+Porém faça sob sua responsabilidade.
+
+### Pipenv
 
 A API foi feita em um ambiente virtual controlado pelo Pipenv, que funciona como um equivalente do NPM. Logo, você deve ter o Pipenv instalado na sua máquina.
 
