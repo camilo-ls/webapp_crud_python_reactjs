@@ -62,7 +62,7 @@ Dentro da pasta 'api', você pode editar o arquivo config.py para adicionar as c
 
 Existe também um script chamado **construirBanco.py** que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
 
-> python construirBanco.py
+> python construirBanco.py (rode pelo pipenv shell)
 
 ### Executando a API:
 
