@@ -33,7 +33,7 @@ Porém faça sob sua responsabilidade.
 
 ### Pipenv
 
-A API foi feita em um ambiente virtual controlado pelo Pipenv, que funciona como um equivalente do NPM. Logo, você deve ter o Pipenv instalado na sua máquina.
+A API foi feita em um ambiente virtual controlado pelo Pipenv, que funciona como um equivalente do NPM. Logo, você deve ter o Pipenv instalado na sua máquina e **todos os arquivos .py devem ser rodados através do pipenv shell**
 
 ### Instalando Pipenv no Windows:
 
@@ -62,7 +62,7 @@ Dentro da pasta 'api', você pode editar o arquivo config.py para adicionar as c
 
 Existe também um script chamado **construirBanco.py** que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
 
-> python construirBanco.py (rode pelo pipenv shell)
+> python construirBanco.py
 
 ### Executando a API:
 
