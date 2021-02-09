@@ -1,7 +1,7 @@
 '''=== Variáveis de configuração do banco ==='''
 # Edite essas variáveis para configurar o banco:
 mysqlUser = 'root'
-mysqlPassword = 'root'
+mysqlPassword = ''
 mysqlAddress = 'localhost'
 mysqlPort = '3306'
 mysqlDb = 'contatos'

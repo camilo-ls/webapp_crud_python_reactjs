@@ -3,6 +3,8 @@ import { useHistory } from 'react-router-dom'
 import { Jumbotron, Form, Button, Modal } from 'react-bootstrap'
 import userContext from '../../context/userContext'
 
+import './styles.css'
+
 function Login() {
   const {userData} = useContext(userContext)
   const [userName, setUserName] = useState('')
