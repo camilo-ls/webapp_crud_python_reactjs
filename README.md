@@ -36,7 +36,7 @@ ou
 
 Vá até dentro do diretório 'api', onde se encontra o arquivo Pipfile. Abra o terminal neste diretório e então digite:
 
-Existe também um script chamado ~construirBanco.py~ que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
+Existe também um script chamado **construirBanco.py** que irá construir a database e as tabelas, basta configurar os parâmetros nesse arquivo e executá-lo:
 
 > 
 
